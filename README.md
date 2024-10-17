@@ -10,7 +10,6 @@ This project aims to enhance farming efficiency by integrating modern technology
 - **Crop Management**: Provides recommendations based on soil and climate data to ensure optimal crop growth.
 - **Weather-Based Predictions**: Integrates real-time weather data to predict disease outbreaks and recommend preventive measures.
 - **Fertilizer Calculator**: Suggests the appropriate type and amount of fertilizer based on crop and soil data.
-- **Sustainability Focus**: Helps reduce waste, lower operational costs, and promote eco-friendly farming practices.
 
 ## Project Structure
 
@@ -25,23 +24,33 @@ This project aims to enhance farming efficiency by integrating modern technology
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repo-name.git
+   git clone https://github.com/prudhiv17/Smart-Farming.git
    cd repo-name
+   ```
 
-2. Install the required dependencies:
+2. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+
+3. Install the required dependencies for the backend:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Start the FastAPI server:
+4. Start the FastAPI server:
    ```bash
-   uvicorn api.main:app --reload
+   uvicorn main:app --reload
    ```
 
-4. Navigate to the frontend directory and start the React app:
+5. Navigate to the frontend directory and install dependencies:
    ```bash
-   cd frontend
+   cd ../frontend
    npm install
+   ```
+
+6. Start the React app:
+   ```bash
    npm start
    ```
 
