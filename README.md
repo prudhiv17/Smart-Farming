@@ -1,46 +1,64 @@
-A Decision Support System for Smart Farming and Sustainable Agricultural Practices
-Overview
+# A Decision Support System for Smart Farming and Sustainable Agricultural Practices
+
+## Overview
+
 This project aims to enhance farming efficiency by integrating modern technology and data analytics. The decision support system leverages machine learning models and real-time weather data to provide actionable insights for disease detection, crop management, and sustainable farming. By optimizing resource utilization and providing accurate crop forecasts, the system helps improve overall productivity while minimizing environmental impact.
 
-Key Features
-Disease Detection: Utilizes image processing and Convolutional Neural Networks (CNNs) to identify and classify plant diseases.
-Crop Management: Provides recommendations based on soil and climate data to ensure optimal crop growth.
-Weather-Based Predictions: Integrates real-time weather data to predict disease outbreaks and recommend preventive measures.
-Fertilizer Calculator: Suggests the appropriate type and amount of fertilizer based on crop and soil data.
-Sustainability Focus: Helps reduce waste, lower operational costs, and promote eco-friendly farming practices.
-Project Structure
-/models: Pre-trained machine learning models (CNN for disease detection, Random Forest for crop recommendations, etc.)
-/api: Backend FastAPI code for serving predictions and recommendations.
-/frontend: React-based frontend for user interaction.
-/data: Sample datasets for testing and training.
-/notebooks: Jupyter notebooks with the model training and evaluation code.
-Installation
-Clone the repository:
+## Key Features
 
-bash
-Copy code
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
-Install the required dependencies:
+- **Disease Detection**: Utilizes image processing and Convolutional Neural Networks (CNNs) to identify and classify plant diseases.
+- **Crop Management**: Provides recommendations based on soil and climate data to ensure optimal crop growth.
+- **Weather-Based Predictions**: Integrates real-time weather data to predict disease outbreaks and recommend preventive measures.
+- **Fertilizer Calculator**: Suggests the appropriate type and amount of fertilizer based on crop and soil data.
+- **Sustainability Focus**: Helps reduce waste, lower operational costs, and promote eco-friendly farming practices.
 
-bash
-Copy code
-pip install -r requirements.txt
-Start the FastAPI server:
+## Project Structure
 
-bash
-Copy code
-uvicorn api.main:app --reload
-Navigate to the frontend directory and start the React app:
+- **/models**: Pre-trained machine learning models (CNN for disease detection, Random Forest for crop recommendations, etc.)
+- **/api**: Backend FastAPI code for serving predictions and recommendations.
+- **/frontend**: React-based frontend for user interaction.
+- **/data**: Sample datasets for testing and training.
+- **/notebooks**: Jupyter notebooks with the model training and evaluation code.
 
-bash
-Copy code
-cd frontend
-npm install
-npm start
-Usage
-Upload plant images to detect diseases.
-Input weather data or fetch it automatically to get crop recommendations.
-Use the fertilizer calculator for accurate recommendations based on your crop type.
-Contributing
-Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
+   cd repo-name
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Start the FastAPI server:
+   ```bash
+   uvicorn api.main:app --reload
+   ```
+
+4. Navigate to the frontend directory and start the React app:
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+
+## Usage
+
+- **Disease Detection**: Upload plant images via the React frontend to receive disease detection results from the CNN model.
+- **Weather-Based Recommendations**: Automatically fetch or input real-time weather data to get crop protection suggestions.
+- **Fertilizer Calculator**: Use the calculator to determine optimal fertilizer usage based on crop and soil characteristics.
+
+## Dependencies
+
+- **Backend**: FastAPI, Scikit-learn, TensorFlow
+- **Frontend**: React, Axios
+- **Other Libraries**: OpenWeatherMap API, PIL (Python Imaging Library) for image handling
+
+## Dataset
+
+- **Plant Disease Dataset**: The system uses plant disease images from the `Plant_Village` dataset.
+- **Weather Data**: Weather information is retrieved using the OpenWeatherMap API.
+- **Crop Recommendation Data**: The crop recommendation system is trained using data from the `crop_recommendation` dataset on Kaggle.
+
