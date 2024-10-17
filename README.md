@@ -14,11 +14,12 @@ This project aims to enhance farming efficiency by integrating modern technology
 
 ## Project Structure
 
-- **/models**: Pre-trained machine learning models (CNN for disease detection, Random Forest for crop recommendations, etc.)
-- **/api**: Backend FastAPI code for serving predictions and recommendations.
-- **/frontend**: React-based frontend for user interaction.
-- **/data**: Sample datasets for testing and training.
-- **/notebooks**: Jupyter notebooks with the model training and evaluation code.
+- **/backend**: FastAPI and Flask code for serving predictions, recommendations, and integrating weather APIs.
+- **/data**: Contains sample datasets for testing, training, and validation.
+- **/frontend**: React-based frontend for user interactions, including image uploads and viewing results.
+- **/model_training**: Jupyter notebooks and scripts for training and evaluating the machine learning models.
+- **/models**: Pre-trained models (e.g., CNN for disease detection, Random Forest for crop recommendations).
+
 
 ## Installation
 
