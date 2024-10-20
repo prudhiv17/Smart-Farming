@@ -7,8 +7,8 @@ This project aims to enhance farming efficiency by integrating modern technology
 ## Key Features
 
 - **Disease Detection**: Utilizes image processing and Convolutional Neural Networks (CNNs) to identify and classify plant diseases.
-- **Crop Management**: Provides recommendations based on soil and climate data to ensure optimal crop growth.
-- **Weather-Based Predictions**: Integrates real-time weather data to predict disease outbreaks and recommend preventive measures.
+- **Crop Recommendation**: Provides recommendations based on soil and climate data to ensure optimal crop growth.
+- **Weather-Based Crop Protection**: Integrates real-time weather data to predict disease outbreaks and recommend preventive measures.
 - **Fertilizer Calculator**: Suggests the appropriate amount of fertilizer based on crop and soil data.
 
 ## Project Structure
@@ -57,7 +57,7 @@ This project aims to enhance farming efficiency by integrating modern technology
 ## Usage
 
 - **Disease Detection**: Upload plant images via the React frontend to receive disease detection results from the CNN model.
-- **Weather-Based Recommendations**: Automatically fetch or input real-time weather data to get crop protection suggestions.
+- **Weather-Based Crop Protection**: Automatically fetch or input real-time weather data to get crop protection suggestions.
 - **Fertilizer Calculator**: Use the calculator to determine optimal fertilizer usage based on crop and soil characteristics.
 
 ## Dependencies
