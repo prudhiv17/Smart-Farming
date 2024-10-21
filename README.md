@@ -56,9 +56,8 @@ This project aims to enhance farming efficiency by integrating modern technology
 
 ## Usage
 
-- **Disease Detection**: Upload plant images via the React frontend to receive disease detection results from the CNN model.
-- **Weather-Based Crop Protection**: Automatically fetch or input real-time weather data to get crop protection suggestions.
-- **Fertilizer Calculator**: Use the calculator to determine optimal fertilizer usage based on crop and soil characteristics.
+To utilize the system, start by uploading plant images through the React frontend to receive disease detection results from the CNN model. For crop recommendations, input soil and climate data to get tailored suggestions based on the Random Forest model. For weather-based crop protection, either input real-time weather data or automatically fetch it to receive suggestions for crop protection strategies. Additionally, the fertilizer calculator can be used to determine optimal fertilizer usage based on specific crop and soil characteristics. Ensure all required data, such as weather and soil data, is available before running the system.
+
 
 ## Dependencies
 
