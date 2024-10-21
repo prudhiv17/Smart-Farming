@@ -62,9 +62,12 @@ This project aims to enhance farming efficiency by integrating modern technology
 
 ## Dependencies
 
-- **Backend**: FastAPI,Flask, Scikit-learn, TensorFlow
-- **Frontend**: React, Axios
-- **Other Libraries**: OpenWeatherMap API, PIL (Python Imaging Library) for image handling
+- **Backend**: FastAPI,Flask, NodeJS
+- **Frontend**: ReactJS, Axios
+- **Database**: MongoDB
+- **Weather API**: OpenWeatherMap API for real-time weather data
+- **Other Libraries**: OpenWeatherMap API, PIL (Python Imaging Library) , Scikit-learn, TensorFlow, OpenCV, NumPy, Pandas, Matplotlib for data manipulation and visualization
+
 
 ## Dataset
 
