@@ -54,12 +54,6 @@ This project aims to enhance farming efficiency by integrating modern technology
    npm start
    ```
 
-## Usage
-
-To utilize the system, start by uploading plant images through the React frontend to receive disease detection results from the CNN model. For crop recommendations, input soil and climate data to get tailored suggestions based on the Random Forest model. For weather-based crop protection, either input real-time weather data or automatically fetch it to receive suggestions for crop protection strategies. Additionally, the fertilizer calculator can be used to determine optimal fertilizer usage based on specific crop and soil characteristics. Ensure all required data, such as weather and soil data, is available before running the system.
-
-![FlowChart](data/FlowChart.jpeg)
-
 ## Dependencies
 
 - **Backend**: FastAPI,Flask, NodeJS
@@ -74,4 +68,14 @@ To utilize the system, start by uploading plant images through the React fronten
 - **Plant Disease Dataset**: The system uses plant disease images from the `Plant_Village` dataset.
 - **Weather Data**: Weather information is retrieved using the OpenWeatherMap API.
 - **Crop Recommendation Data**: The crop recommendation system is trained using data from the `crop_recommendation` dataset on Kaggle.
+
+## Usage
+
+To utilize the system, start by uploading plant images through the React frontend to receive disease detection results from the CNN model. For crop recommendations, input soil and climate data to get tailored suggestions based on the Random Forest model. For weather-based crop protection, either input real-time weather data or automatically fetch it to receive suggestions for crop protection strategies. Additionally, the fertilizer calculator can be used to determine optimal fertilizer usage based on specific crop and soil characteristics. Ensure all required data, such as weather and soil data, is available before running the system.
+
+
+
+![FlowChart](data/FlowChart.jpeg)
+
+
 
